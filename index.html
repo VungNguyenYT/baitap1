@@ -32,6 +32,9 @@
     </style>
     <title>Zun's baitap</title>
 </head>
+
+
+
 <body>
     <div class="container-wrap">
         <div class="nar-bar">
@@ -43,114 +46,130 @@
                 <div class="tieude"><a href="#baitap5">Excercise 5</a></div>
             </div>
         </div>
-        <div class="baitap1" id="baitap1">
-            <h1>Hello World</h1>
-            <p>My first paragraph</p>
-        </div>
-        <hr>
 
-        <div class="baitap2" id="baitap2">
-            <h1>Đây là thẻ h1</h1>
-            <h2>Đây là thẻ h2</h2>
-            <h3>Đây là thẻ h3</h3>
-            <h4>Đây là thẻ h4</h4>
-            <h5>Đây là thẻ h5</h5>
-            <h6>Đây là thẻ h6</h6>
+        <div style="display: flex;" class="container-content">
+        <div style="width: 40%;" class="left-menu">
+            <div class="2ndleft-menu">
+                <p><a style="text-decoration: none;" href="#baitap1">P1 Intro</a></p>
+                <p><a style="text-decoration: none;" href="#baitap2">P2 Heading</a></p>
+                <p><a style="text-decoration: none;" href="#baitap3">P3 HTML Lists</a></p>
+                <p><a style="text-decoration: none;" href="#baitap4">P4 HTML Text Formatting</a></p>
+                <p><a style="text-decoration: none;" href="#baitap5">P5 FORM</a></p>
+            </div>
         </div>
-        <hr>
 
-        <div class="baitap3" id="baitap3">
-            <h2>DANH SÁCH LỚP HỌC</h2>
-            <ol>
-                <li>Nguyễn Ngọc Duy</li>
-                <li>Tống Quang Anh</li>
-                <li>Đinh Thu Loan</li>
-                <li>Hà Văn Tiến</li>
-                <li>Nguyễn Hải Đăng</li>
-                <li>Nguyễn Tiến Quang</li>
-                <li>Nguyễn Văn Chiến</li>
-            </ol>
-            <!-- ---------- -->
-            <strong>A list in a list in a list</strong>
-            <ul>
-                <li>Coffe</li>
-                <li>Tea</li>
-                
+        <div style="width: 60%; align-items: center; justify-content: center; margin-left: 5px;" class="main-menu">
+            <div class="baitap1" id="baitap1">
+                <h1>Hello World</h1>
+                <p>My first paragraph</p>
+            </div>
+            <hr>
+    
+            <div class="baitap2" id="baitap2">
+                <h1>Đây là thẻ h1</h1>
+                <h2>Đây là thẻ h2</h2>
+                <h3>Đây là thẻ h3</h3>
+                <h4>Đây là thẻ h4</h4>
+                <h5>Đây là thẻ h5</h5>
+                <h6>Đây là thẻ h6</h6>
+            </div>
+            <hr>
+    
+            <div class="baitap3" id="baitap3">
+                <h2>DANH SÁCH LỚP HỌC</h2>
+                <ol>
+                    <li>Nguyễn Ngọc Duy</li>
+                    <li>Tống Quang Anh</li>
+                    <li>Đinh Thu Loan</li>
+                    <li>Hà Văn Tiến</li>
+                    <li>Nguyễn Hải Đăng</li>
+                    <li>Nguyễn Tiến Quang</li>
+                    <li>Nguyễn Văn Chiến</li>
+                </ol>
+                <!-- ---------- -->
+                <strong>A list in a list in a list</strong>
                 <ul>
-                    <li>Black tea</li>
-                    <li>Green tea</li>
+                    <li>Coffe</li>
+                    <li>Tea</li>
                     
                     <ul>
-                        <li>China</li>
-                        <li>Africa</li>
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                        
+                        <ul>
+                            <li>China</li>
+                            <li>Africa</li>
+                        </ul>
+                     
                     </ul>
-                 
+                    
                 </ul>
                 
-            </ul>
-            
-            <ol>
-                <li>Cơm trưa</li>
-                <ul>
-                    <li>Cơm chiên hải sản</li>
-                    <li>Cơm sườn non nấu canh</li>
-                    <li>Cơm canh chua cá lóc</li>
-                </ul>
-
-                <li>Tráng miệng trái cây</li>
-                <ul>
-                    <li>Nho tươi</li>
-                    <li>Chuối</li>
-                    <li>Mận</li>
-                </ul>
-            </ol>
-        </div>
-        <hr>
-
-        <div class="baitap4" id="baitap4">
-            <b>This text is bold</b><br>
-            <i>This text is italic</i><br>
-            <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
-            <p>This text is normal</p>
-            <em>This text is emphrasized</em><br>
-            <Strong>HTML <small>Small</small> Formatting</Strong><br>
-            <Strong>HTML <mark>Marked</mark> Formatting</Strong>
-            <p>The del element represents deleted (removed) text.</p>
-            <p>My favorite color is <del>blue</del> red</p>
-            <p>The ins element represent inserted (added) text</p>
-            <p>My favorite <ins>color</ins> is red </p>
-        </div>
-        <hr>
-
-        <div class="baitap5" id="baitap5">
-            <div class="container-form">
-                <form action="">
-                    <Strong>Register</Strong><br>
-                    <em>Please <b><em>fill in the form</em></b> to create an account</em>
-                    <div style="margin-top: 15px;" class="Yourname">
-                        <label>Fullname<span style="color: red;">*</span></label><br>
-                        <input type="text" placeholder="Input your full name...">
-                    </div>
-                    <div style="margin-top: 15px;" class="Username">
-                        <label>Username<span style="color: red;">*</span></label><br>
-                        <input type="text" placeholder="Input your username...">
-                    </div>
-
-                    <div style="margin-top: 15px;" class="Password">
-                        <label>Password<span style="color: red;">*</span></label><br>
-                        <input type="password" placeholder="Input your password...">
-                    </div>
-
-                    <div style="margin-top: 15px;" class="Emai">
-                        <label>Email<span style="color: red;">*</span></label><br>
-                        <input type="text" placeholder="Input your email...">
-                    </div>
-                    <div style="margin-top: 15px;" class="PhoneNumber">
-                        <label>PhoneNumber<span style="color: red;">*</span></label><br>
-                        <input type="text" placeholder="Input your phone number...">
-                    </div>
-                </form>
+                <ol>
+                    <li>Cơm trưa</li>
+                    <ul>
+                        <li>Cơm chiên hải sản</li>
+                        <li>Cơm sườn non nấu canh</li>
+                        <li>Cơm canh chua cá lóc</li>
+                    </ul>
+    
+                    <li>Tráng miệng trái cây</li>
+                    <ul>
+                        <li>Nho tươi</li>
+                        <li>Chuối</li>
+                        <li>Mận</li>
+                    </ul>
+                </ol>
             </div>
+            <hr>
+    
+            <div class="baitap4" id="baitap4">
+                <b>This text is bold</b><br>
+                <i>This text is italic</i><br>
+                <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+                <p>This text is normal</p>
+                <em>This text is emphrasized</em><br>
+                <Strong>HTML <small>Small</small> Formatting</Strong><br>
+                <Strong>HTML <mark>Marked</mark> Formatting</Strong>
+                <p>The del element represents deleted (removed) text.</p>
+                <p>My favorite color is <del>blue</del> red</p>
+                <p>The ins element represent inserted (added) text</p>
+                <p>My favorite <ins>color</ins> is red </p>
+            </div>
+            <hr>
+    
+            <div class="baitap5" id="baitap5">
+                <div class="container-form">
+                    <form action="">
+                        <Strong>Register</Strong><br>
+                        <em>Please <b><em>fill in the form</em></b> to create an account</em>
+                        <div style="margin-top: 15px;" class="Yourname">
+                            <label>Fullname<span style="color: red;">*</span></label><br>
+                            <input type="text" placeholder="Input your full name...">
+                        </div>
+                        <div style="margin-top: 15px;" class="Username">
+                            <label>Username<span style="color: red;">*</span></label><br>
+                            <input type="text" placeholder="Input your username...">
+                        </div>
+    
+                        <div style="margin-top: 15px;" class="Password">
+                            <label>Password<span style="color: red;">*</span></label><br>
+                            <input type="password" placeholder="Input your password...">
+                        </div>
+    
+                        <div style="margin-top: 15px;" class="Emai">
+                            <label>Email<span style="color: red;">*</span></label><br>
+                            <input type="text" placeholder="Input your email...">
+                        </div>
+                        <div style="margin-top: 15px;" class="PhoneNumber">
+                            <label>PhoneNumber<span style="color: red;">*</span></label><br>
+                            <input type="text" placeholder="Input your phone number...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         </div>
 
     </div>
