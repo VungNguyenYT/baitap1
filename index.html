@@ -4,17 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .nar-bar{
+            width: 100vw;
+            height: 5vh;
+            background-color: orange;
+        }
+
+        .tieude{
+            padding: 1%;
+            margin-left: 15px;
+            scroll-behavior: smooth;
+            
+        }
+
+        html:focus-within {
+            scroll-behavior: smooth;
+        }
+
+        .tieude:hover{
+            background-color: black;
+            color: white;
+
+        }
+
+    </style>
     <title>Zun's baitap</title>
 </head>
 <body>
     <div class="container-wrap">
-        <div class="baitap1">
+        <div class="nar-bar">
+            <div style="display: flex;" class="menu">
+                <div class="tieude"><a href="#baitap1">Excercise 1</a></div>
+                <div class="tieude"><a href="#baitap2">Excercise 2</a></div>
+                <div class="tieude"><a href="#baitap3">Excercise 3</a></div>
+                <div class="tieude"><a href="#baitap4">Excercise 4</a></div>
+                <div class="tieude"><a href="#baitap5">Excercise 5</a></div>
+            </div>
+        </div>
+        <div class="baitap1" id="baitap1">
             <h1>Hello World</h1>
             <p>My first paragraph</p>
         </div>
         <hr>
 
-        <div class="baitap2">
+        <div class="baitap2" id="baitap2">
             <h1>Đây là thẻ h1</h1>
             <h2>Đây là thẻ h2</h2>
             <h3>Đây là thẻ h3</h3>
@@ -24,7 +59,7 @@
         </div>
         <hr>
 
-        <div class="baitap3">
+        <div class="baitap3" id="baitap3">
             <h2>DANH SÁCH LỚP HỌC</h2>
             <ol>
                 <li>Nguyễn Ngọc Duy</li>
@@ -72,7 +107,7 @@
         </div>
         <hr>
 
-        <div class="baitap4">
+        <div class="baitap4" id="baitap4">
             <b>This text is bold</b><br>
             <i>This text is italic</i><br>
             <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
@@ -84,7 +119,38 @@
             <p>My favorite color is <del>blue</del> red</p>
             <p>The ins element represent inserted (added) text</p>
             <p>My favorite <ins>color</ins> is red </p>
+        </div>
+        <hr>
 
+        <div class="baitap5" id="baitap5">
+            <div class="container-form">
+                <form action="">
+                    <Strong>Register</Strong><br>
+                    <em>Please <b><em>fill in the form</em></b> to create an account</em>
+                    <div style="margin-top: 15px;" class="Yourname">
+                        <label>Fullname<span style="color: red;">*</span></label><br>
+                        <input type="text" placeholder="Input your full name...">
+                    </div>
+                    <div style="margin-top: 15px;" class="Username">
+                        <label>Username<span style="color: red;">*</span></label><br>
+                        <input type="text" placeholder="Input your username...">
+                    </div>
+
+                    <div style="margin-top: 15px;" class="Password">
+                        <label>Password<span style="color: red;">*</span></label><br>
+                        <input type="password" placeholder="Input your password...">
+                    </div>
+
+                    <div style="margin-top: 15px;" class="Emai">
+                        <label>Email<span style="color: red;">*</span></label><br>
+                        <input type="text" placeholder="Input your email...">
+                    </div>
+                    <div style="margin-top: 15px;" class="PhoneNumber">
+                        <label>PhoneNumber<span style="color: red;">*</span></label><br>
+                        <input type="text" placeholder="Input your phone number...">
+                    </div>
+                </form>
+            </div>
         </div>
 
     </div>
